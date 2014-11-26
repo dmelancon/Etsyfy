@@ -1,10 +1,10 @@
 import sys
 import re
 fullcode = []
-asciiBorder = open(sys.argv[2], 'r');
-asciiSkull = open(sys.argv[3], 'r');
-asciiCat = open(sys.argv[4], 'r');
-asciiFill = open(sys.argv[5], 'r');
+asciiBorder = open('asciiArt/ascii.txt', 'r');
+asciiSkull = open('asciiArt/skull.txt', 'r');
+asciiCat = open('asciiArt/cat.txt', 'r');
+asciiFill = open('asciiArt/fill.txt', 'r');
 code = open(sys.argv[1], 'r');
 
 
